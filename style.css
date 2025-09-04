@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.rock,
+.paper,
+.scissors {
+    box-sizing: border-box;
+    width: 500px;
+    height: 815px;
+}
+
+.rockimg,
+.paperimg,
+.scissorsimg {
+    width: auto;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 200px;
+    border: 5px solid salmon;
+    border-radius: 10px;
+}
+
+.rockimg2,
+.paperimg2,
+.scissorsimg2 {
+    width: auto;
+    height: 100px;
+    margin-left: 100px;
+    border: 5px solid salmon;
+    border-radius: 10px;
+}
+
+#rockButton,
+#paperButton,
+#scissorsButton {
+    display: block;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: -80px;
+    margin-left: 190px;
+    border-radius: 5px;
+}
+
+.rock {
+    background-color: rgb(255, 69, 69);
+    border: 5px solid palevioletred;
+}
+
+.paper {
+    background-color: rgb(255, 255, 80);
+    border: 5px solid wheat;
+}
+
+.scissors {
+    background-color: rgb(58, 146, 255);
+    border: 5px solid lightblue;
+}
+
+.rockimg,
+.rockimg2 {
+    border: 5px solid palevioletred;
+}
+
+.paperimg,
+.paperimg2 {
+    border: 5px solid wheat;
+}
+
+.scissorsimg,
+.scissorsimg2 {
+    border: 5px solid lightblue;
+}
+
+#rockButton {
+    background-color: lightcoral;
+    border: 5px solid palevioletred;
+}
+
+#paperButton {
+    background-color: lightyellow;
+    border: 5px solid wheat;
+}
+
+#scissorsButton {
+    background-color: skyblue;
+    border: 5px solid lightblue;
+}
